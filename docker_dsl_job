@@ -21,7 +21,7 @@ job('NodeJS Docker example') {
             forceTag(false)
             createFingerprints(false)
             skipDecorate()
-	    dockerHostURI('tcp:10.1.1.1:2375')
+	    dockerHostURI('tcp://10.1.1.1:2375')
         }
     }
 }
